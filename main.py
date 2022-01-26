@@ -86,7 +86,7 @@ def day_signing(token):
 
 def signing_result_to_message(result):
     if result["code"] != 20000:
-        return "签到失败！\n"+result
+        return "签到失败！\n" + str(result)
     return "签到成功，获得{}个积分，已签到{}天".format(result["data"]["point"], result["data"]["continuous"])
 
 
