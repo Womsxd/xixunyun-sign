@@ -67,6 +67,10 @@ def login():
 
 
 def day_signing(token):
+    try:
+        remark = config["remark"]
+    except KeyError:
+        remark = 0
     req = http.post(
         url="https://api.xixunyun.com/signin_rsa?token={}&from=app&version="
             "{}&platform=android&entrance_year=0&graduate_year=0&school_id={}".format(
@@ -74,7 +78,7 @@ def day_signing(token):
         data={
             "address": config["address"],
             "latitude": public_encrypt(config["latitude"]+str(random.randint(10, 99))),
-            "remark": 0,
+            "remark": remark,
             "comment": "",
             "address_name": config["address_name"],
             "change_sign_resource": 0,

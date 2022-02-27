@@ -2,10 +2,11 @@
     "account": "",
     "password": "",
     "school_id": "",
-    "app_version": "4.5.9",
+    "app_version": "4.6.2",
     "system": "9",
     "address": "",
     "address_name": "",
     "latitude": "",
-    "longitude": ""
+    "longitude": "",
+    "remark": 0
 }
