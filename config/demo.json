@@ -1,0 +1,58 @@
+{
+    "account": "账号",
+    "password": "密码",
+    "school_id": "学校id",
+    "app_version": "4.6.2",
+    "system": "9",
+    "health": {
+        "enable": true,
+        "health_type": 1,
+        "code": 2,
+        "vaccin": 2,
+        "strong": 1,
+        "high-risk_areas": 0,
+        "ill": 0,
+        "family_name": "老爸",
+        "family_phone": "11451419198"
+    },
+    "config_list": ["school","worke","home"],
+    "school": {
+        "use_day" : ["1","3","5"],
+        "sign": {
+            "address": "浙江省杭州市西湖区余杭塘路866号",
+            "address_name": "浙江大学紫金港校区",
+            "latitude": "30.3029",
+            "longitude": "120.0808",
+            "remark": 9
+        },
+        "health": {
+            "state": 3
+        }
+    },
+    "worke": {
+        "use_day" : ["2","4"],
+        "sign": {
+            "address": "浙江省杭州市萧山区空港大道1号",
+            "address_name": "杭州萧山国际机场",
+            "latitude": "30.2347",
+            "longitude": "120.4324",
+            "remark": 0
+        },
+        "health": {
+            "state": 1
+        }
+    },
+    "home": {
+        "use_day" : ["6","7"],
+        "sign": {
+            "address": "地址",
+            "address_name": "名称",
+            "latitude": "纬度.小数点后4位",
+            "longitude": "经度.小数点后4位",
+            "remark": 7
+        },
+        "health": {
+            "state": 2
+        }
+    }
+}

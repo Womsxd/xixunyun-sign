@@ -4,9 +4,29 @@
     "school_id": "",
     "app_version": "4.6.2",
     "system": "9",
-    "address": "",
-    "address_name": "",
-    "latitude": "",
-    "longitude": "",
-    "remark": 0
+    "health": {
+        "enable": true,
+        "health_type": 1,
+        "code": 2,
+        "vaccin": 2,
+        "strong": 1,
+        "high-risk_areas": 0,
+        "ill": 0,
+        "family_name": "",
+        "family_phone": ""
+    },
+    "config_list": ["default"],
+    "default": {
+        "use_day" : ["1","2","3","4","5","6","7"],
+        "sign": {
+            "address": "",
+            "address_name": "",
+            "latitude": "",
+            "longitude": "",
+            "remark": 9
+        },
+        "health": {
+            "state": 3
+        }
+    }
 }
